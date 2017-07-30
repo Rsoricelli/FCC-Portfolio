@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	font-size: 16px;
+	font-family: "Avenir Next", Arial, sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+}
+
+.bg-image {
+	position: relative;
+	opacity: .70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    text-align: center;
+    min-height: 100%;
+}
+
+#portfolio {
+	background-image: url("https://static.pexels.com/photos/481857/pexels-photo-481857.jpeg");
+}
+
+#contact {
+    background-image: url("https://static.pexels.com/photos/481021/pexels-photo-481021.jpeg");
+}
+
+.p-text {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+}
+
+h1, h2 {
+	font-weight: 200;
+}
+
+nav {
+	background-image: url("https://static.pexels.com/photos/218434/pexels-photo-218434.jpeg"); 
+}
+
+.border {
+    background-color: #111;
+    opacity: .80;
+	padding: 10px 30px;
+	font-size: 36px;
+	color: #ccc;
+}
+
+.border-reverse {
+	background-color: #ccc;
+	color: #111;
+}
+
+nav .navigation {
+	list-style-type: none;
+}
+
+nav .navigation li {
+	display: inline;
+}
+
+nav .navigation li a {
+	display: block;
+	text-decoration: none;
+	color: #111;
+	padding: 30px 30px;
+	font-size: 24px;
+}
+
+section {
+	padding: 50px 80px;
+	text-align: center;
+}
+
+section h2 {
+	margin-bottom: 14px;
+}
+
+.section-light {
+	color: #111;
+}
+
+.section-dark {
+	background-color: #111;
+	color: #ccc;
+}
+
+.secondary-bg-image {
+	position: relative;
+	min-height: 300px;
+}
+
+.portfolio-row {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.thumbnail {
+	width: 100%;
+	opacity: .70;
+	margin-top: 16px;
+}
+
+#contact p {
+    margin-top: 50px;
+    color: #000;
+}
+
+.p-text .fa {
+    display: block;
+	font-size: 48px;
+    color: #111;
+    padding: 0 5px;
+}
+
+.p-text a {
+    text-decoration: none;
+}
+
+footer {
+	text-align: center;
+	padding: 30px;
+}
+
+
+
+/* Media Queries */
+
+@media (min-width: 600px) {
+    nav .navigation li a {
+        display: inline-block;
+    }
+
+    .p-text .fa {
+        display: inline-block;
+    }
+}
